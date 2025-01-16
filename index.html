@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-background"></div>
+        <div class="header-content">
+            <img src="images/avatar.jpg" alt="个人头像" class="profile-image">
+            <h1>Colak</h1>
+            <p>Web 开发者 | UI 设计师</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <p>你好！我是一名充满热情的Web开发者，专注于创建美观且用户友好的网站。</p>
+                <div class="skills">
+                    <h3>技能</h3>
+                    <ul>
+                        <li class="fade-in">HTML5 & CSS3</li>
+                        <li class="fade-in">JavaScript</li>
+                        <li class="fade-in">React</li>
+                        <li class="fade-in">UI/UX 设计</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="米塔">
+                    <div class="portfolio-item-content">
+                        <h3>米塔</h3>
+                        <p>《米塔》是一款由AIHASTO开发、IndieArk发行的3D第一人称恐怖冒险游戏，于2024年12月11日发售。 玩家扮演的主角被虚拟角色米塔拉入其世界，前期与之甜蜜互动，之后米塔会阻止主角离开。 游戏融合探索、解谜与养成等元素，玩家可体验做饭、购物等日常互动及多种小游戏。 其特色包括2D到3D的视角转换、独特的角色塑造、风格多变的像素风原创音乐等。</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="只狼">
+                    <div class="portfolio-item-content">
+                        <h3>只狼</h3>
+                        <p>《只狼：影逝二度》（Sekiro：Shadows Die Twice）是一款由From Software制作的第三人称视角的动作冒险RPG类游戏，玩家将操控一位忍者，拯救他的主人——拥有日本贵族血统的大能的御子，并向他的天敌复仇游戏剧情将探索生死冲突不断的16世纪后期，残酷的日本战国时代。在黑暗、扭曲的世界，玩家与威胁生命的敌人对峙，活用义手装备各种致命武器，大显忍者身手，在血腥对抗中潜行、上下穿梭，与敌人正面激烈交锋。</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project3.jpg" alt="黑神话悟空">
+                    <div class="portfolio-item-content">
+                        <h3>黑神话悟空</h3>
+                        <p>《黑神话：悟空》是由杭州游科互动科技有限公司开发 ，浙江出版集团数字传媒有限公司出版的西游题材单机动作角色扮演游戏。该作以中国四大名著之一、吴承恩所著长篇小说《西游记》为背景设定，借用《西游记》自身的故事作为前传，讲述取经之后孙悟空因放弃佛位引发天庭对其再次征伐之后的故事。在游戏中，玩家将扮演一位"天命人"，为了探寻昔日传说的真相，踏上一条充满危险与惊奇的西游之路。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" placeholder="姓名" required>
+                        <input type="email" placeholder="邮箱" required>
+                        <textarea placeholder="留言" required></textarea>
+                        <button type="submit">发送消息</button>
+                    </form>
+                </div>
+                
+                <div class="contact-qr">
+                    <p>扫码即可添加我的微信好友</p>
+                    <img src="images/wx.jpg" alt="微信二维码">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Colak. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
